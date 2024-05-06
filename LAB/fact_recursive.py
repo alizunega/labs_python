@@ -5,3 +5,5 @@ def factorial_function(n):
         return 1
     return n * factorial_function(n - 1)
 
+
+print(factorial_function(5))
